@@ -9,3 +9,5 @@ Compiled --> run fast running program
 
 JavaScript contain frameworks which is used in frontend as well as backend 
 Suppored by Browser 
+
+

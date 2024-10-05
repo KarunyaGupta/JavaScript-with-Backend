@@ -1,0 +1,23 @@
+Rules to declaration of variable in JavaScript
+In JavaScript, the rules for declaring a variable are as follows:
+
+1.  **Variable Declaration**: In JavaScript, you can declare a variable using the `let`,
+`const`, or `var` keywords. The `let` and `const` keywords were introduced
+in ECMAScript 2015 (ES6) and are used for block-scoped variables,
+while the `var` keyword is function-scoped.
+
+2.  **Variable Naming**: Variable names in JavaScript can contain letters, digits, underscores, and
+dollar signs. However, they cannot start with a digit. Variable names are case-sensitive.
+
+3.  **Variable Initialization**: Variables in JavaScript do not require initialization. You can declare a variable
+without assigning a value to it, and it will be initialized with a value of `undefined`
+
+4.  **Variable Hoisting**: In JavaScript, variables declared with the `var` keyword are
+hoisted to the top of their scope, regardless of where they are actually declared. This means that
+
+Declaration of variable in a meaningful names to variables
+Doesnt contain any keywords like var , const etc
+
+cant start with number and contain spaces
+can contain letters, digits, underscores, and dollar signs
+camelcasing like 

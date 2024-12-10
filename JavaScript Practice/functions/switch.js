@@ -1,0 +1,1 @@
+let num = prompt("ENter number : ")

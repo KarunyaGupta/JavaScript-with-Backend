@@ -1,0 +1,31 @@
+JS is a programming language 
+we use it to give instructions to thhe computer 
+
+input(code) --> computer --> output
+
+
+
+Datatype --> 
+1. Primitive
+--> Number  --> float / integer 
+--> String 
+--> Boolean --> true or false
+--> Undefined
+--> Null  --> special value (type of var == object)
+--> Bigint --> big integer (last me n aata hai )
+--> Symbol
+
+
+
+2. Nonpremitive -->
+--> objects--> it is a collection of values 
+
+eg --> student character --> name {string} --> age{number}
+
+object store : 
+key : value pairs 
+
+eg--> {
+    age : 24;
+    name : "karunya"
+}

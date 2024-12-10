@@ -1,0 +1,31 @@
+body{
+    margin:0px;
+    background-color: white;
+    padding:0px;
+}
+
+h1{
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+}
+
+button{
+    width:100px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 20%;
+    align-items: center;
+}
+
+.content{
+    text-align: center;
+
+}
+
+p{
+    color:gray;
+    margin-top: -20px;
+}

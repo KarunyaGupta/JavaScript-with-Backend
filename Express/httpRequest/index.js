@@ -8,10 +8,14 @@
 import express from "express";
 const app = express();
 app.get("/",(req,res)=>{
-    res.send("<h1>Home Page</h2>"); // send a response
+    res.send("<h1>Home Page</h1> <h4> Welcome to Home Page</h4>");
+     // send a response to home page
 })
 app.get("/about",(req,res)=>{
-    res.send("<h1>About Me</h1>"); // localhost:5000/about
+    res.send("<h1>About Me</h1> <p> Hey My Name is Karunya"); // localhost:5000/about
+})
+app.get("/contact",(req,res)=>{
+    res.send("<h1>Contact me</h1> <p> 98059468215</p>")
 })
 app.listen(5000,()=>{
     console.log("Server running on port 5000");

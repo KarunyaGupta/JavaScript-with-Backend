@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weeekday</title>
+</head>
+<body>
+    <h1> Hey , it's <%= dayType %>,<%= advice %>!</h1>
+    <ul>
+        <!-- JavaScript code is written in <%  %> and html that is executable is written in <%= %> -->
+    <% let fruits = ["Apple", "Mango","Grapes"]; // declaration of code
+        for(let i=0;i<fruits.length;i++){ %>
+        <li>
+            <%= fruits[i] %>
+            
+        </li>
+        <% } %>
+    </ul>
+</body>
+</html>

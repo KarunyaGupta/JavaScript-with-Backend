@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+     
     <form action="/submit" method="post">
         <div id="content">
             <label for="username" name="username">Username</label>
@@ -19,5 +20,12 @@
             <button type="submit">Submit</button>
         </div>
     </form>
+    <% if(locals.UserData){%>
+        <h1>Submitted Data:</h1>
+        <p>Username: <%= UserData.username %></p>
+        <p>Password: <%= UserData.password %></p>
+     <%}else{%>
+        <h1>No data founded!</h1>
+     <%}%>
 </body>
 </html>

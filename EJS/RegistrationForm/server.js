@@ -7,7 +7,7 @@ const port = 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-    res.render("index.ejs");
+    res.render("index.ejs",{ UserData: null });
 });
 
 app.post("/submit", (req, res) => {
@@ -15,12 +15,13 @@ app.post("/submit", (req, res) => {
         username: req.body["username"],
         password: req.body["password"]
     };
-    // res.render("index.ejs",{
-    //     UserData : data
-    // })
+    res.render("index.ejs",{
+        UserData : data
+    })
     // // const count = data.username.length;
-    res.send(data);
+    // res.send(data);
     // res.send("Data received"); // Send a response back to the client
+    // console.log(data);
 });
 
 app.listen(port, () => {

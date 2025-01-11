@@ -1,0 +1,16 @@
+API ENDPOINT -> BaseURL/Endpoint
+
+Example: https://bored-api.appbrewerycom/random
+
+
+Query Parameter
+bored-api.appbrewerycom/random?query=value  // add a key value pair
+
+
+bored-api.appbrewerycom/random?query=value&query2=value  // add a multiple query
+
+
+filter
+https://bored-api.appbrewery.com/filter?participants=4
+
+https://bored-api.appbrewery.com/Endpoint/{path-parameter}

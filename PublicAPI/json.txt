@@ -1,0 +1,27 @@
+JSON-> JavaScript object notation 
+similar to JavaScript objects
+
+
+// JavaScript Format
+const wardrobe = {
+    doors : 2,
+    drawers: 2,
+    color : "red",
+};
+
+
+JSON Format 
+{
+    "doors" : 2,
+    "drawers" : 2,
+    "color": "red"
+}  
+
+
+//for complex data 
+use online json viwer to simplify the data
+
+
+
+const JsonData = JSON.stringify(data); // change the data into json
+const JavaScriptData = Json.parse(jsonData) // convert into JavaScript Object

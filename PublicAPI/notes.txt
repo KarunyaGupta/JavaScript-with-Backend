@@ -13,4 +13,8 @@ bored-api.appbrewerycom/random?query=value&query2=value  // add a multiple query
 filter
 https://bored-api.appbrewery.com/filter?participants=4
 
+
+
+Path Parameter:
 https://bored-api.appbrewery.com/Endpoint/{path-parameter} 
+example: https://bored-api.appbrewery.com/activity/3943506 // activity: endpoint and a number is a parameter (key)
